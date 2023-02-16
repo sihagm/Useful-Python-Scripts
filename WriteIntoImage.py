@@ -51,7 +51,7 @@ while True:
     except EOFError:
         break
     text_2.append(line)
-text_2="\n".join(text_prior)
+text_2="\n".join(text_2)
 
 
 text_3 = [] 
@@ -61,7 +61,7 @@ while True:
     except EOFError:
         break
     text_3.append(line)
-text_3="\n".join(text_restrictions)
+text_3="\n".join(text_3)
 
 
 
